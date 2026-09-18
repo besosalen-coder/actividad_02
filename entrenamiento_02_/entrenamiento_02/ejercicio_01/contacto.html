@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="styles.css">
+    <title>formulario</title>
+</head>
+<body> 
+    <header>
+        <nav>
+            <a href="index.html">HOME</a> | <a href="index.html">CONTACTO</a>
+        </nav>
+    </header>
+<main>
+    <form action="index.html" method="get">
+        <fieldset>
+            <label for="nombre">Nombre:</label>
+            <input placeholder="ej Dalma Sosa" type="text" id="nombre" name="nombre" requiered>
+            
+            <label for="email">Email:</label>
+            <input placeholder=" e.j zszszs@gmail" type="email" id="email" name="email" required>
+       
+            <label for="tel">Tel:</label>
+            <input placeholder="e.j 555-555-5555" type="tel" id="tel" name="tel" required>
+        
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" maxlength="250" placeholder="Escribí tu consulta acá..." required></textarea>
+            
+            <button type="submit" class="boton-enviar">Enviar</button>
+            <button type="reset" class="boton-resetear">Cancelar</button>
+        </fieldset>
+    </form>
+</main>
+<footer>
+    <p>Todos los derechos reservados</p>
+</footer>
+</body>
+</html>
